@@ -1,0 +1,507 @@
+<resources>
+  <!-- この下は英語になってないんだからね！ -->
+    <string name="app_name">Nursing Translator</string>
+
+    <string name="start_translating_name">Mulai Menerjemah</string>
+    <string name="open_log_name">Buka Log</string>
+
+    <string name="patient_text_name">Nama Pasien</string>
+    <string name="patient_name_input_hint">Tulis nama pasien disini.</string>
+    <string name="patient_status_text_name">Status Pasien</string>
+    <string name="patient_status_excretion">Toilet (Ekskresi)</string>
+    <string name="patient_status_bathing">Mandi</string>
+    <string name="patient_status_eating">Makan</string>
+
+    <string name="translate_button">Terjemahkan</string>
+    <string name="translate_result_info">Hasil Terjemahan</string>
+
+    <!-- ここまではインドネシア語なんだからね！ -->
+
+    <!--Urination questions-->
+    <string name="excr0q0">Where was the place?</string>
+    <string name="excr0q1">Did the patient urinate by himself? Or did the patient use any equipments?</string>
+    <string name="excr0q2">What was the color of the urine?</string>
+    <string name="excr0q3">The amount of urine</string>
+    <string name="excr0q4">What was the smell of Urine?</string>
+    <string name="excr0q5">Was there any sediments?</string>
+    <string name="excr0q6">How many times did the patient urinate?</string>
+
+    <!--Defecation questions-->
+    <string name="excr1q0">Where was the place?</string>
+    <string name="excr1q1">Did the patient excrete by himself? Or did the patient use any equipments?</string>
+    <string name="excr1q2">What was the color of the stool?</string>
+    <string name="excr1q3">The amount of stool</string>
+    <string name="excr1q4">How dose it look like?</string>
+    <string name="excr1q5">How many times did the patient excrete?</string>
+
+    <!--BeforeBath questions-->
+    <string name="bath0q0">Did the patient have a fever?</string>
+    <string name="bath0q1">Was the respiration normal?</string>
+    <string name="bath0q2">Was the pulse normal?</string>
+    <string name="bath0q3">Was the blood pressure normal?</string>
+    <string name="bath0q4">How did the patient look ill?</string>
+    <string name="bath0q5">How did the patient's eyes look fine?</string>
+    <string name="bath0q6">Did the patient's nose fine?</string>
+    <string name="bath0q7">How was condition of the patient's ear </string>
+    <string name="bath0q8">How was the patient's lips/Oral condition?</string>
+    <string name="bath0q9">How was the patient's skin's condtion?</string>
+    <string name="bath0q10">How was the patient's throat's condtion?</string>
+    <string name="bath0q11">How was the defecation?</string>
+    <string name="bath0q12">Did the patient have a good appetite?</string>
+    <string name="bath0q13">Did the patient have a good posture?</string>
+    <string name="bath0q14">Did you find any issues?Did you report the supervisor about the issue?</string>
+    <string name="bath0q15">Did the patient taken a bath?</string>
+
+
+    <!--CallBath questions-->
+    <string name="bath1q0">Did the patient follow your instruction immediately?</string>
+    <string name="bath1q1">Did you check the patient's vital and health condition?Did you asked the patient to take a bath again who didn't take last time?</string>
+    <string name="bath1q2">Did the patient taken a bath?</string>
+
+    <!--ConsumptionPercentage questions-->
+    <string name="eati0q0">When did the patient take his/her meal?</string>
+    <string name="eati0q1">How much did the patient take carbohydrate?</string>
+    <string name="eati0q2">How much did the patient take side dishes?</string>
+    <string name="eati0q3">How much did the patient take soup?</string>
+    <string name="eati0q4">How much did the patient take the dessert?</string>
+    <string name="eati0q5">How much did the patient drink the beverage?</string>
+    <string name="eati0q6">Did the patient do misswallowing?</string>
+
+    <!--OralHealth questions-->
+    <string name="eati1q0">Is the patient seemed to drink toothpaste or brush by his/her mistake?</string>
+    <string name="eati1q1">Did the patient use toothpaste?</string>
+    <string name="eati1q2">Dose the patient has paralysis?</string>
+    <string name="eati1q3">Was the patient able to open his/her mouth by himself/herself?</string>
+    <string name="eati1q4">Was the patient able to wash his/her teeth?</string>
+
+    <!--Urination answers-->
+    <!--q0 answers-->
+    <string name="excr0q0a0">Toilet</string>
+    <string name="excr0q0a0_jp">トイレ</string>
+    <string name="excr0q0a1">Bed</string>
+    <string name="excr0q0a1_jp">ベッド</string>
+    <string name="excr0q0a2">Portable toilet</string>
+    <string name="excr0q0a2_jp">ポータブルトイレ</string>
+    <!--q1 answers-->
+    <string name="excr0q1a0">himself/herself</string>
+    <string name="excr0q1a0_jp">自力</string>
+    <string name="excr0q1a1">himself/herself (Wearing diaper)</string>
+    <string name="excr0q1a1_jp">自力（リハビリパンツ着用）</string>
+    <string name="excr0q1a2">Bedpan</string>
+    <string name="excr0q1a2_jp">差し込み便器</string>
+    <string name="excr0q1a3">Urinary tract</string>
+    <string name="excr0q1a3_jp">尿器</string>
+    <string name="excr0q1a4">Diaper pad</string>
+    <string name="excr0q1a4_jp">尿取りパット</string>
+    <string name="excr0q1a5">Tape type paper diaper</string>
+    <string name="excr0q1a5_jp">テープ式紙オムツ</string>
+    <string name="excr0q1a6">Flat type paper diaper</string>
+    <string name="excr0q1a6_jp">フラット型紙オムツ</string>
+    <string name="excr0q1a7">Diaper pants</string>
+    <string name="excr0q1a7_jp">リハビリパンツ</string>
+    <!--q2 answers-->
+    <string name="excr0q2a0">Transparency</string>
+    <string name="excr0q2a0_jp">透明</string>
+    <string name="excr0q2a1">Yellow</string>
+    <string name="excr0q2a1_jp">黄色</string>
+    <string name="excr0q2a2">Brown</string>
+    <string name="excr0q2a2_jp">褐色</string>
+    <string name="excr0q2a3">Red</string>
+    <string name="excr0q2a3_jp">赤色</string>
+    <string name="excr0q2a4">Reddish pink</string>
+    <string name="excr0q2a4_jp">赤ピンク</string>
+    <string name="excr0q2a5">Reddish brown</string>
+    <string name="excr0q2a5_jp">赤茶色</string>
+    <string name="excr0q2a6">Blackish-brown</string>
+    <string name="excr0q2a6_jp">茶黒色</string>
+    <string name="excr0q2a7">Green</string>
+    <string name="excr0q2a7_jp">緑色</string>
+    <string name="excr0q2a8">Blue</string>
+    <string name="excr0q2a8_jp">青色</string>
+    <string name="excr0q2a9">White</string>
+    <string name="excr0q2a9_jp">白色</string>
+    <!--q3 answers-->
+    <string name="excr0q3a0">Normal (500ml~2000ml)</string>
+    <string name="excr0q3a0_jp">正常（500ml~2000ml）</string>
+    <string name="excr0q3a1">Too much (More than 2500ml)</string>
+    <string name="excr0q3a1_jp">多い（2500ml以上）</string>
+    <string name="excr0q3a2">Too little (Less than 400ml)</string>
+    <string name="excr0q3a2_jp">少ない（400ml以下）</string>
+    <!--q4 answers-->
+    <string name="excr0q4a0">Odorless</string>
+    <string name="excr0q4a0_jp">無臭</string>
+    <string name="excr0q4a1">Ammonia odor</string>
+    <string name="excr0q4a1_jp">アンモニア臭</string>
+    <string name="excr0q4a2">Sweet odor</string>
+    <string name="excr0q4a2_jp">甘い</string>
+    <!--q5 answers-->
+    <string name="excr0q5a0">Yes</string>
+    <string name="excr0q5a0_jp">あり</string>
+    <string name="excr0q5a1">No</string>
+    <string name="excr0q5a1_jp">なし</string>
+    <!--q6 answers-->
+    <string name="excr0q6a0">Once</string>
+    <string name="excr0q6a0_jp">１回</string>
+    <string name="excr0q6a1">Twice</string>
+    <string name="excr0q6a1_jp">２回</string>
+    <string name="excr0q6a2">3 times</string>
+    <string name="excr0q6a2_jp">３回</string>
+    <string name="excr0q6a3">4 times</string>
+    <string name="excr0q6a3_jp">４回</string>
+    <string name="excr0q6a4">More than 5 times</string>
+    <string name="excr0q6a4_jp">５回以上</string>
+
+    <!--Defecation answers-->
+    <!--q0 answers-->
+    <string name="excr1q0a0">Toilet</string>
+    <string name="excr1q0a0_jp">トイレ</string>
+    <string name="excr1q0a1">Bed</string>
+    <string name="excr1q0a1_jp">ベッド</string>
+    <string name="excr1q0a2">Portable toilet</string>
+    <string name="excr1q0a2_jp">ポータブルトイレ</string>
+    <!--q1 answers-->
+    <string name="excr1q1a0">himself/herself</string>
+    <string name="excr1q1a0_jp">自力</string>
+    <string name="excr1q1a1">himself/herself (Wearing diaper)</string>
+    <string name="excr1q1a1_jp">自力（リハビリパンツ着用）</string>
+    <string name="excr1q1a2">Bedpan</string>
+    <string name="excr1q1a2_jp">差し込み便器</string>
+    <string name="excr1q1a3">Urinary tract</string>
+    <string name="excr1q1a3_jp">尿器</string>
+    <string name="excr1q1a4">Diaper pad</string>
+    <string name="excr1q1a4_jp">尿取りパット</string>
+    <string name="excr1q1a5">Tape type paper diaper</string>
+    <string name="excr1q1a5_jp">テープ式紙オムツ</string>
+    <string name="excr1q1a6">Flat type paper diaper</string>
+    <string name="excr1q1a6_jp">フラット型紙オムツ</string>
+    <string name="excr1q1a7">Diaper pants</string>
+    <string name="excr1q1a7_jp">リハビリパンツ</string>
+    <!--q2 answers-->
+    <string name="excr1q2a0">yellowish-brown</string>
+    <string name="excr1q2a0_jp">黄褐色</string>
+    <string name="excr1q2a1">Yellow</string>
+    <string name="excr1q2a1_jp">黄色</string>
+    <string name="excr1q2a2">Brown</string>
+    <string name="excr1q2a2_jp">茶色</string>
+    <string name="excr1q2a3">Deep brown</string>
+    <string name="excr1q2a3_jp">濃い茶色</string>
+    <string name="excr1q2a4">Black</string>
+    <string name="excr1q2a4_jp">黒色</string>
+    <string name="excr1q2a5">Green</string>
+    <string name="excr1q2a5_jp">緑色</string>
+    <string name="excr1q2a6">Red (Bloody stool)</string>
+    <string name="excr1q2a6_jp">赤色（血便）</string>
+    <!--q3 answers-->
+    <string name="excr1q3a0">Normal</string>
+    <string name="excr1q3a0_jp">正常</string>
+    <string name="excr1q3a1">Too much</string>
+    <string name="excr1q3a1_jp">多い</string>
+    <string name="excr1q3a2">A little</string>
+    <string name="excr1q3a2_jp">少ない</string>
+    <!--q4 answers-->
+    <string name="excr1q4a0">Hard</string>
+    <string name="excr1q4a0_jp">固い</string>
+    <string name="excr1q4a1">A little hard</string>
+    <string name="excr1q4a1_jp">やや硬い</string>
+    <string name="excr1q4a2">Normal</string>
+    <string name="excr1q4a2_jp">普通</string>
+    <string name="excr1q4a3">A little soft</string>
+    <string name="excr1q4a3_jp">やや柔らかい</string>
+    <string name="excr1q4a4">Mushy stool</string>
+    <string name="excr1q4a4_jp">泥状</string>
+    <string name="excr1q4a5">Diarrhea</string>
+    <string name="excr1q4a5_jp">下痢</string>
+    <!--q5 answers-->
+    <string name="excr1q5a0">Once</string>
+    <string name="excr1q5a0_jp">１回</string>
+    <string name="excr1q5a1">Twice</string>
+    <string name="excr1q5a1_jp">２回</string>
+    <string name="excr1q5a2">3 times</string>
+    <string name="excr1q5a2_jp">３回</string>
+    <string name="excr1q5a3">4 times</string>
+    <string name="excr1q5a3_jp">４回</string>
+    <string name="excr1q5a4">More than 5 times</string>
+    <string name="excr1q5a4_jp">５回以上</string>
+
+    <!--BeforeBath answers-->
+    <!--q0 answers-->
+    <string name="bath0q0a0">Normal (35.5℃ ~ 36℃)</string>
+    <string name="bath0q0a0_jp">平熱（35℃後半～36℃代）</string>
+    <string name="bath0q0a1">Low</string>
+    <string name="bath0q0a1_jp">低い</string>
+    <string name="bath0q0a2">Higher than Usual</string>
+    <string name="bath0q0a2_jp">熱気味</string>
+    <string name="bath0q0a3">High</string>
+    <string name="bath0q0a3_jp">高熱</string>
+    <!--q1 answers-->
+    <string name="bath0q1a0">Normal (15~20 times/min)</string>
+    <string name="bath0q1a0_jp">正常（15～20回／1min）</string>
+    <string name="bath0q1a1">Fewer</string>
+    <string name="bath0q1a1_jp">少ない</string>
+    <string name="bath0q1a2">Many</string>
+    <string name="bath0q1a2_jp">多い</string>
+    <!--q2 answers-->
+    <string name="bath0q2a0">Normal (60~80 times/min)</string>
+    <string name="bath0q2a0_jp">正常（60～80回／1min）</string>
+    <string name="bath0q2a1">Fewer</string>
+    <string name="bath0q2a1_jp">少ない</string>
+    <string name="bath0q2a2">Many</string>
+    <string name="bath0q2a2_jp">多い</string>
+    <!--q3 answers-->
+    <string name="bath0q3a0">Normal (120~139 (Systolic)/80~89 (Diastolic))</string>
+    <string name="bath0q3a0_jp">正常(上120～139／下80～89)</string>
+    <string name="bath0q3a1">Higher</string>
+    <string name="bath0q3a1_jp">高い</string>
+    <string name="bath0q3a2">Lower</string>
+    <string name="bath0q3a2_jp">低い</string>
+    <!--q4 answers-->
+    <string name="bath0q4a0">Normal</string>
+    <string name="bath0q4a0_jp">正常</string>
+    <string name="bath0q4a1">Pale</string>
+    <string name="bath0q4a1_jp">蒼白</string>
+    <string name="bath0q4a2">Pain</string>
+    <string name="bath0q4a2_jp">苦痛</string>
+    <string name="bath0q4a3">Weird</string>
+    <string name="bath0q4a3_jp">不快な表情</string>
+    <string name="bath0q4a4">Flush</string>
+    <string name="bath0q4a4_jp">紅潮</string>
+    <!--q5 answers-->
+    <string name="bath0q5a0">Normal</string>
+    <string name="bath0q5a0_jp">正常</string>
+    <string name="bath0q5a1">Painful</string>
+    <string name="bath0q5a1_jp">痛む</string>
+    <string name="bath0q5a2">Congestion</string>
+    <string name="bath0q5a2_jp">充血</string>
+    <string name="bath0q5a3">Gum</string>
+    <string name="bath0q5a3_jp">目やに</string>
+    <string name="bath0q5a4">Tear</string>
+    <string name="bath0q5a4_jp">涙</string>
+    <string name="bath0q5a5">Swelling</string>
+    <string name="bath0q5a5_jp">むくみ</string>
+    <string name="bath0q5a6">Eyesight deteriorates</string>
+    <string name="bath0q5a6_jp">視力の低下</string>
+    <!--q6 answers-->
+    <string name="bath0q6a0">Normal</string>
+    <string name="bath0q6a0_jp">正常</string>
+    <string name="bath0q6a1">Sneeze</string>
+    <string name="bath0q6a1_jp">くしゃみ</string>
+    <string name="bath0q6a2">Runny nose</string>
+    <string name="bath0q6a2_jp">鼻水</string>
+    <string name="bath0q6a3">nasal congestion</string>
+    <string name="bath0q6a3_jp">鼻づまり</string>
+    <string name="bath0q6a4">Dried</string>
+    <string name="bath0q6a4_jp">乾燥</string>
+    <string name="bath0q6a5">Penurunan daya penciuman</string>
+    <string name="bath0q6a5_jp">嗅覚の低下</string>
+    <!--q7 answers-->
+    <string name="bath0q7a0">Normal</string>
+    <string name="bath0q7a0_jp">正常</string>
+    <string name="bath0q7a1">Sakit</string>
+    <string name="bath0q7a1_jp">痛み</string>
+    <string name="bath0q7a2">Pengeluaran dari telinga (nanah dsb.)</string>
+    <string name="bath0q7a2_jp">耳だれ</string>
+    <string name="bath0q7a3">Kotoran telinga</string>
+    <string name="bath0q7a3_jp">耳垢</string>
+    <string name="bath0q7a4">Tinnitus</string>
+    <string name="bath0q7a4_jp">耳鳴り</string>
+    <string name="bath0q7a5">Hyposmia</string>
+    <string name="bath0q7a5_jp">聴力の低下</string>
+    <!--q8 answers-->
+    <string name="bath0q8a0">Normal</string>
+    <string name="bath0q8a0_jp">正常</string>
+    <string name="bath0q8a1">Dried lips</string>
+    <string name="bath0q8a1_jp">唇の乾燥</string>
+    <string name="bath0q8a2">Halitosis</string>
+    <string name="bath0q8a2_jp">口臭</string>
+    <string name="bath0q8a3">Stomatitis</string>
+    <string name="bath0q8a3_jp">口内炎</string>
+    <string name="bath0q8a4">Unusual color of lips</string>
+    <string name="bath0q8a4_jp">唇の色</string>
+    <string name="bath0q8a5">taste disorder</string>
+    <string name="bath0q8a5_jp">味覚の低下</string>
+    <!--q9 answers-->
+    <string name="bath0q9a0">Normal</string>
+    <string name="bath0q9a0_jp">正常</string>
+    <string name="bath0q9a1">Dried</string>
+    <string name="bath0q9a1_jp">乾燥</string>
+    <string name="bath0q9a2">Exanthema</string>
+    <string name="bath0q9a2_jp">発疹</string>
+    <string name="bath0q9a3">Edema</string>
+    <string name="bath0q9a3_jp">むくみ</string>
+    <string name="bath0q9a4">Swelling</string>
+    <string name="bath0q9a4_jp">腫れ</string>
+    <string name="bath0q9a5">Heat sensation</string>
+    <string name="bath0q9a5_jp">熱感</string>
+    <string name="bath0q9a6">Cold sensation</string>
+    <string name="bath0q9a6_jp">冷感</string>
+    <string name="bath0q9a7">Hurt</string>
+    <string name="bath0q9a7_jp">傷あり</string>
+    <string name="bath0q9a8">Itching</string>
+    <string name="bath0q9a8_jp">かゆみ</string>
+    <!--q10 answers-->
+    <string name="bath0q10a0">Normal</string>
+    <string name="bath0q10a0_jp">正常</string>
+    <string name="bath0q10a1">Pain</string>
+    <string name="bath0q10a1_jp">痛み</string>
+    <string name="bath0q10a2">Redening</string>
+    <string name="bath0q10a2_jp">発赤</string>
+    <string name="bath0q10a3">Swelling</string>
+    <string name="bath0q10a3_jp">腫れ</string>
+    <string name="bath0q10a4">Coughing</string>
+    <string name="bath0q10a4_jp">咳</string>
+    <string name="bath0q10a5">putum</string>
+    <string name="bath0q10a5_jp">痰</string>
+    <string name="bath0q10a6">Husk voice</string>
+    <string name="bath0q10a6_jp">声掠れ</string>
+    <string name="bath0q10a7">Difficult to swallowing</string>
+    <string name="bath0q10a7_jp">嚥下困難</string>
+    <!--q11 answers-->
+    <string name="bath0q11a0">Normal</string>
+    <string name="bath0q11a0_jp">正常</string>
+    <string name="bath0q11a1">Constipation</string>
+    <string name="bath0q11a1_jp">便秘気味</string>
+    <string name="bath0q11a2">Diarrhea</string>
+    <string name="bath0q11a2_jp">下痢気味</string>
+    <!--q12 answers-->
+    <string name="bath0q12a0">Normal</string>
+    <string name="bath0q12a0_jp">正常</string>
+    <string name="bath0q12a1">Apastia</string>
+    <string name="bath0q12a1_jp">拒食気味</string>
+    <string name="bath0q12a2">Hyperphagia</string>
+    <string name="bath0q12a2_jp">過食気味</string>
+    <!--q13 answers-->
+    <string name="bath0q13a0">Leaning</string>
+    <string name="bath0q13a0_jp">傾いている</string>
+    <string name="bath0q13a1">Limping</string>
+    <string name="bath0q13a1_jp">足を引きずっている</string>
+    <string name="bath0q13a2">Other reasons</string>
+    <string name="bath0q13a2_jp">その他以上あり</string>
+    <!--q14 answers-->
+    <string name="bath0q14a0">No problem</string>
+    <string name="bath0q14a0_jp">特に異常なし</string>
+    <string name="bath0q14a1">There was some concerns but the supervisor allowed to bath the patient</string>
+    <string name="bath0q14a1_jp">気になる点はあるが看護師判断で入浴OK</string>
+    <string name="bath0q14a2">The supervisor didn't allow to bath the patient</string>
+    <string name="bath0q14a2_jp">看護師判断で入浴NG</string>
+    <!--a15 answers-->
+    <string name="bath0q15a0">Took a normal bathtub(by himself/hersel, who can walk and sit with some helps)</string>
+    <string name="bath0q15a0_jp">一般浴槽にて入浴（自立出来る・介助があれば歩行・座位が出来る）</string>
+    <string name="bath0q15a1">Took a Special bathtub(bedridden/severe paralysis, walking and sitting are difficult )</string>
+    <string name="bath0q15a1_jp">特殊浴槽にて入浴（寝たきり・身体に重度の麻痺がある等、歩行・座位が困難）</string>
+    <string name="bath0q15a2">in‐bed bath</string>
+    <string name="bath0q15a2_jp">清拭</string>
+    <string name="bath0q15a3">Canceled</string>
+    <string name="bath0q15a3_jp">キャンセル</string>
+
+    <!--CallBath answers-->
+    <!--q0 answers-->
+    <string name="bath1q0a0">Refused</string>
+    <string name="bath1q0a0_jp">嫌がった</string>
+    <string name="bath1q0a1">Followed the instruction immediately</string>
+    <string name="bath1q0a1_jp">すぐに応じてくれた</string>
+    <!--q1 answers-->
+    <string name="bath1q1a0">Checked the patient's vital and health</string>
+    <string name="bath1q1a0_jp">□バイタル・健康チェックを行い</string>
+    <string name="bath1q1a1">Asked the patient again after a few minutes passed and the patient said OK to take a bath</string>
+    <string name="bath1q1a1_jp">時間を置いて再度声をかけるとOKだったので</string>
+    <string name="bath1q1a2">Left the patient a few minutes but the patient still refused to take a bath </string>
+    <string name="bath1q1a2_jp">時間を置いても入浴拒否のままだったので</string>
+    <!--q2 answers-->
+    <string name="bath1q2a0">Yellowish-brown</string>
+    <string name="bath1q2a0_jp">黄褐色</string>
+    <string name="bath1q2a1">Yellow</string>
+    <string name="bath1q2a1_jp">黄色</string>
+
+    <!--ConsumptionPercentage answers-->
+    <!--q0 answers-->
+    <string name="eati0q0a0">Breakfast</string>
+    <string name="eati0q0a0_jp">朝食</string>
+    <string name="eati0q0a1">Lunch</string>
+    <string name="eati0q0a1_jp">昼食</string>
+    <string name="eati0q0a2">Dinner</string>
+    <string name="eati0q0a2_jp">夜食</string>
+    <!--q1 answers-->
+    <string name="eati0q1a0">Once</string>
+    <string name="eati0q1a0_jp">１</string>
+    <string name="eati0q1a1">Twice</string>
+    <string name="eati0q1a1_jp">２</string>
+    <string name="eati0q1a2">3 times</string>
+    <string name="eati0q1a2_jp">３</string>
+    <string name="eati0q1a3">4 times</string>
+    <string name="eati0q1a3_jp">４</string>
+    <string name="eati0q1a4">5 times</string>
+    <string name="eati0q1a4_jp">５</string>
+    <!--q2 answers-->
+    <string name="eati0q2a0">Once</string>
+    <string name="eati0q2a0_jp">１</string>
+    <string name="eati0q2a1">Twice</string>
+    <string name="eati0q2a1_jp">２</string>
+    <string name="eati0q2a2">3 times</string>
+    <string name="eati0q2a2_jp">３</string>
+    <string name="eati0q2a3">4 times</string>
+    <string name="eati0q2a3_jp">４</string>
+    <string name="eati0q2a4">5 times</string>
+    <string name="eati0q2a4_jp">５</string>
+    <!--q3 answers-->
+    <string name="eati0q3a0">Once</string>
+    <string name="eati0q3a0_jp">１</string>
+    <string name="eati0q3a1">Twice</string>
+    <string name="eati0q3a1_jp">２</string>
+    <string name="eati0q3a2">3 times</string>
+    <string name="eati0q3a2_jp">３</string>
+    <string name="eati0q3a3">4 times</string>
+    <string name="eati0q3a3_jp">４</string>
+    <string name="eati0q3a4">5 times</string>
+    <string name="eati0q3a4_jp">５</string>
+    <!--q4 answers-->
+    <string name="eati0q4a0">Once</string>
+    <string name="eati0q4a0_jp">１</string>
+    <string name="eati0q4a1">Twice</string>
+    <string name="eati0q4a1_jp">２</string>
+    <string name="eati0q4a2">3 times</string>
+    <string name="eati0q4a2_jp">３</string>
+    <string name="eati0q4a3">4 times</string>
+    <string name="eati0q4a3_jp">４</string>
+    <string name="eati0q4a4">5 times</string>
+    <string name="eati0q4a4_jp">５</string>
+    <!--q5 answers-->
+    <!--input in numbers-->
+    <string name="eati0q5a">Input the number</string>
+    <!--q6 answers-->
+    <string name="eati0q6a0">No</string>
+    <string name="eati0q6a0_jp">なし</string>
+    <string name="eati0q6a1">Yes</string>
+    <string name="eati0q6a1_jp">あり</string>
+
+    <!--OralHealth answers-->
+    <!--q0 answers-->
+    <string name="eati1q0a0">No</string>
+    <string name="eati1q0a0_jp">ない</string>
+    <string name="eati1q0a1">Yes</string>
+    <string name="eati1q0a1_jp">ある</string>
+    <!--q1 answers-->
+    <string name="eati1q1a0">Yes</string>
+    <string name="eati1q1a0_jp">使用しました</string>
+    <string name="eati1q1a1">No</string>
+    <string name="eati1q1a1_jp">使用しませんでした</string>
+    <!--q2 answers-->
+    <string name="eati1q2a0">No</string>
+    <string name="eati1q2a0_jp">ない</string>
+    <string name="eati1q2a1">On the right side of the mouth</string>
+    <string name="eati1q2a1_jp">右側にある</string>
+    <string name="eati1q2a2">On the left side of the mouth</string>
+    <string name="eati1q2a2_jp">左側にある</string>
+    <!--q3 answers-->
+    <string name="eati1q3a0">By himself/herself</string>
+    <string name="eati1q3a0_jp">自力で開けてもらい</string>
+    <string name="eati1q3a1">Opened the mouth with your finger</string>
+    <string name="eati1q3a1_jp">指で開け</string>
+    <string name="eati1q3a2">Using bite block</string>
+    <string name="eati1q3a2_jp">バイトブロックで開け</string>
+    <!--q4 answers-->
+    <string name="eati1q4a0">Brushed the patent's teeth</string>
+    <string name="eati1q4a0_jp">歯を磨きました</string>
+    <string name="eati1q4a1">Wiped the patient's teeth with gauze</string>
+    <string name="eati1q4a1_jp">ガーゼで汚れをふき取りました</string>
+
+</resources>
